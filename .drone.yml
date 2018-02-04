@@ -4,4 +4,3 @@ pipeline:
     commands:
       - pip install pylint
       - pylint -rn main.py
-  branches: [master]
