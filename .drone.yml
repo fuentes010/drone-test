@@ -1,7 +1,8 @@
 pipeline:
   linters:
     image: library/python:2.7-alpine
-    branches: master
     commands:
       - pip install pylint
-      - pylint main.py
+      - pylint -rn main.py
+      
+  branches: master
