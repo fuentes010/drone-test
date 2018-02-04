@@ -1,6 +1,9 @@
-
+""" Test script  """
 def main():
-    a = 1
-    b = 2
-    total = a*2
+    """
+    Test function
+    """
+    param1 = 1
+    param2 = 2
+    total = param1 + param2
     return total
