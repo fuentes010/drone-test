@@ -5,5 +5,5 @@ def main():
     """
     param1 = 1
     param2 = 2
-    total = param1 + param2
+    total = param1 + 2
     return total
